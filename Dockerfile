@@ -7,7 +7,7 @@ RUN apt-get -y update > /dev/null
 RUN apt-get -y install \
     sudo \
     net-tools \
-    openjdk-8-jdk \
+    openjdk-11-jdk \
     rsync \
     curl \
 	maven \
