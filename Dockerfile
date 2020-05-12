@@ -13,7 +13,7 @@ RUN apt-get -y install \
 	maven \
     > /dev/null
 
-
+  
 RUN mkdir -p /opt/vlopez
 
 WORKDIR /opt/vlopez
